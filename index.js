@@ -32,7 +32,7 @@ bot.on('message', async msg => {
 							{
 								text: "Kurslarni ko'rish",
 								web_app: {
-									url: 'https://telegram-web-bot.vercel.app',
+									url: 'https://tg-web-bot-part01.vercel.app/',
 								},
 							},
 						],
@@ -53,7 +53,7 @@ bot.on('message', async msg => {
 							{
 								text: "Kurslarni ko'rish",
 								web_app: {
-									url: 'https://telegram-web-bot.vercel.app',
+									url: 'https://tg-web-bot-part01.vercel.app/',
 								},
 							},
 						],
@@ -120,7 +120,7 @@ app.post('/web-data', async (req, res) => {
 	}
 });
 
-app.listen(process.env.PORT || 10000, () =>
+app.listen(process.env.PORT || 4000, () =>
 	console.log('Server started')
 );
 
